@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B2EBF2"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/patient_name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cxcx"
+        android:padding="4dp"
+        android:background="#2E7D32"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/patient_age_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_margin="5dp"
+        android:background="#C62828"
+        android:text="cxcx" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/patient_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cxcx"
+        android:padding="4dp"
+        android:layout_margin="5dp"
+        android:background="#FF8F00"
+        android:textIsSelectable="true"/>
+
+</LinearLayout>

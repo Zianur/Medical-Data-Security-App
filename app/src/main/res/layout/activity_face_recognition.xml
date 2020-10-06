@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90CAF9"
+    tools:context=".FaceRecognition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/facerec_image_id"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp" />
+
+
+        <Button
+            android:id="@+id/takephoto_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:text="click to take your photo"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:background="#D50000"
+            >
+        </Button>
+
+
+        <Button
+            android:id="@+id/savephoto_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:text="save your photo"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:background="#D50000"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/matchyourface_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Match and continue"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:background="#D50000"
+            >
+        </Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

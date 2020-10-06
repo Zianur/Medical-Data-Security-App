@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medical_background"
+    tools:context=".SignupActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/selecttype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select type - "
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:textColor="@android:color/white">
+            </TextView>
+
+
+            <LinearLayout
+                android:id="@+id/checkboxlinearlayout"
+                android:layout_below="@+id/selecttype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                >
+
+                <CheckBox android:id="@+id/checkbox_patient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:text="Patient"
+                    android:onClick="onCheckboxClicked"
+                    tools:ignore="OnClick" />
+
+                <CheckBox android:id="@+id/checkbox_doctor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:background="@android:color/white"
+                    android:text="Doctor"
+                    android:onClick="onCheckboxClicked"
+                    tools:ignore="OnClick" />
+
+                <CheckBox android:id="@+id/checkbox_admin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:background="@android:color/white"
+                    android:text="Admin"
+                    android:onClick="onCheckboxClicked"
+                    tools:ignore="OnClick" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/user_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkboxlinearlayout"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#D50000"
+                android:hint="Enter User ID"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:id="@+id/user_name_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_id"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#D50000"
+                android:hint="Enter your name"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:id="@+id/user_age_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_name_id"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#D50000"
+                android:hint="Enter your age"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:id="@+id/dateofbirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_age_id"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#D50000"
+                android:hint="Enter your date of birth"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:id="@+id/ss_number_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dateofbirth"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#D50000"
+                android:hint="Enter social security number"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+
+            <EditText
+                android:id="@+id/address_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ss_number_id"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#D50000"
+                android:hint="Enter your address"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_below="@+id/address_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="40dp"
+                android:text="Save Information"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:background="#D50000"
+                >
+            </Button>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

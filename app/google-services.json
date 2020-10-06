@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "43124101970",
+    "firebase_url": "https://medical-security-app.firebaseio.com",
+    "project_id": "medical-security-app",
+    "storage_bucket": "medical-security-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43124101970:android:8c96f60e9db01022ec608b",
+        "android_client_info": {
+          "package_name": "com.medicalsecurityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43124101970-k9lkirjq5f6fftu2es2oqurq99lv04mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTZ2H1JZ0akHQ6X3glIuFL1ZN3UD_34OI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43124101970-k9lkirjq5f6fftu2es2oqurq99lv04mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90CAF9"
+    tools:context=".AddMRActivity">
+
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+
+          <EditText
+              android:id="@+id/mr_user_name_id"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="20dp"
+              android:layout_marginTop="50dp"
+              android:layout_marginEnd="20dp"
+              android:backgroundTint="#D50000"
+              android:hint="Enter Name"
+              android:textColor="@android:color/white"
+              android:textColorHint="@android:color/white" />
+
+          <EditText
+              android:id="@+id/mr_user_age"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/mr_user_name_id"
+              android:layout_marginStart="20dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginEnd="20dp"
+              android:backgroundTint="#D50000"
+              android:hint="Enter Age"
+              android:textColor="@android:color/white"
+              android:textColorHint="@android:color/white" />
+
+
+          <EditText
+              android:id="@+id/mr_user_id"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/mr_user_age"
+              android:layout_marginStart="20dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginEnd="20dp"
+              android:backgroundTint="#D50000"
+              android:hint="Enter id"
+              android:textColor="@android:color/white"
+              android:textColorHint="@android:color/white" />
+
+          <EditText
+              android:id="@+id/mr_date"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/mr_user_id"
+              android:layout_marginStart="20dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginEnd="20dp"
+              android:backgroundTint="#D50000"
+              android:hint="Enter date"
+              android:textColor="@android:color/white"
+              android:textColorHint="@android:color/white" />
+
+          <EditText
+              android:id="@+id/mr_doctor"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/mr_date"
+              android:layout_marginStart="20dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginEnd="20dp"
+              android:backgroundTint="#D50000"
+              android:hint="Enter doctor name"
+              android:textColor="@android:color/white"
+              android:textColorHint="@android:color/white" />
+
+
+          <EditText
+              android:id="@+id/mr_issues"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/mr_doctor"
+              android:layout_marginStart="20dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginEnd="20dp"
+              android:backgroundTint="#D50000"
+              android:hint="Enter issues"
+              android:textColor="@android:color/white"
+              android:textColorHint="@android:color/white" />
+
+          <EditText
+              android:id="@+id/mr_medicine"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/mr_issues"
+              android:layout_marginStart="20dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginEnd="20dp"
+              android:backgroundTint="#D50000"
+              android:hint="Enter medicine"
+              android:textColor="@android:color/white"
+              android:textColorHint="@android:color/white" />
+
+          <EditText
+              android:id="@+id/mr_testreports"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/mr_medicine"
+              android:layout_marginStart="20dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginEnd="20dp"
+              android:backgroundTint="#D50000"
+              android:hint="Enter test reports"
+              android:textColor="@android:color/white"
+              android:textColorHint="@android:color/white" />
+
+          <Button
+              android:id="@+id/mr_save"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/mr_testreports"
+              android:layout_marginTop="40dp"
+              android:layout_marginEnd="20dp"
+              android:layout_marginStart="20dp"
+              android:layout_marginBottom="20dp"
+              android:text="Add Medical Records"
+              android:textStyle="bold"
+              android:textAllCaps="true"
+              android:background="#D50000"
+              >
+          </Button>
+
+      </RelativeLayout>
+
+  </ScrollView>
+
+
+</RelativeLayout>

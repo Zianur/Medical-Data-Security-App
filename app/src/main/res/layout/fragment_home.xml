@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90CAF9"
+    tools:context=".ui.home.HomeFragment">
+
+    <Button
+        android:id="@+id/search_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="See your Records"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:background="#D50000"
+        >
+    </Button>
+
+
+    <Button
+        android:id="@+id/add_medical_records"
+        android:layout_below="@+id/search_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Add Medical records"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:background="#D50000"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/search_patient_records"
+        android:layout_below="@+id/add_medical_records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="see patients Records"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:background="#D50000"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/request_id"
+        android:layout_below="@+id/search_patient_records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Notification"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:background="#D50000"
+        >
+    </Button>
+
+
+
+
+</RelativeLayout>

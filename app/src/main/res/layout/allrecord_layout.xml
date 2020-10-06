@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B2EBF2"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:layout_weight="0.9"
+        android:id="@+id/date_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cxcx"
+        android:padding="4dp"
+        android:background="#F9A825"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/doctor_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_margin="5dp"
+        android:background="#C62828"
+        android:text="cxcx" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/issues_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cxcx"
+        android:padding="4dp"
+        android:layout_margin="5dp"
+        android:background="#2E7D32"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/medicine_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_margin="5dp"
+        android:background="#EF6C00"
+        android:text="cxcx" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/test_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_margin="5dp"
+        android:background="#AD1457"
+        android:text="cxcx" />
+
+
+
+</LinearLayout>
